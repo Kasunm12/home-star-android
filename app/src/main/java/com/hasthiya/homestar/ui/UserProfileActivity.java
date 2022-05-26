@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.hasthiya.homestar.ui.ChooseInterestsActivity;
+
 public class UserProfileActivity extends AppCompatActivity {
 
     Button profileSave;
