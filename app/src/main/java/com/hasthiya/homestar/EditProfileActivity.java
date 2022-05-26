@@ -1,7 +1,6 @@
 package com.hasthiya.homestar;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +13,6 @@ public class EditProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profile);
-
         save =  findViewById(R.id.save);
         save.setOnClickListener(new View.OnClickListener() {
             @Override
