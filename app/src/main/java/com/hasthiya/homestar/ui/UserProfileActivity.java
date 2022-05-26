@@ -1,4 +1,4 @@
-package com.hasthiya.homestar;
+package com.hasthiya.homestar.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,12 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
-import com.hasthiya.homestar.ui.ChooseInterestsActivity;
+import com.hasthiya.homestar.R;
 
 public class UserProfileActivity extends AppCompatActivity {
 
-    Button profileSave;
+    TextView profileSave;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

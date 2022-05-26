@@ -10,26 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeSTAR">
         <activity
-            android:name=".UploadVedioActivity"
+            android:name=".ui.UploadVedioActivity"
             android:exported="false" />
         <activity
-            android:name=".ChooseInterestsActivity"
+            android:name=".ui.ChooseInterestsActivity"
             android:exported="false" />
         <activity
             android:name=".EditProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".UserProfileActivity"
+            android:name=".ui.UserProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".ForgetPasswordActivity"
+            android:name=".ui.ForgetPasswordActivity"
             android:exported="false" />
 
         <activity
-            android:name=".LogInActivity"
+            android:name=".ui.LogInActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".ui.RegisterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

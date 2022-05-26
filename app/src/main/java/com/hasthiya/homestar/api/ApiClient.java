@@ -1,2 +1,6 @@
-package com.hasthiya.homestar.api;public class ApiClient {
+package com.hasthiya.homestar.api;
+
+public class ApiClient {
+
+
 }

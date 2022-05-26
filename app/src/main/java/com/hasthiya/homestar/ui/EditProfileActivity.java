@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.hasthiya.homestar.ui.UserProfileActivity;
+
 public class EditProfileActivity extends AppCompatActivity {
 
     Button save;

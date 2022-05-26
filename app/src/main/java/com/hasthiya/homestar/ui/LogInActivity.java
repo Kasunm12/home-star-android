@@ -1,4 +1,4 @@
-package com.hasthiya.homestar;
+package com.hasthiya.homestar.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.hasthiya.homestar.EditProfileActivity;
+import com.hasthiya.homestar.R;
 
 public class LogInActivity extends AppCompatActivity {
 
@@ -21,8 +24,11 @@ public class LogInActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                button.setEnabled(false);
                 Intent intent = new Intent(LogInActivity.this, EditProfileActivity.class);
                 startActivity(intent);
+
+
             }
         });
 

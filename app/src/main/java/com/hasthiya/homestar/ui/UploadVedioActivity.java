@@ -1,8 +1,10 @@
-package com.hasthiya.homestar;
+package com.hasthiya.homestar.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.hasthiya.homestar.R;
 
 public class UploadVedioActivity extends AppCompatActivity {
 
