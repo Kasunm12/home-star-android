@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.hasthiya.homestar.ui.LogInActivity;
+
 public class RegisterActivity extends AppCompatActivity {
 
     Button signup;
