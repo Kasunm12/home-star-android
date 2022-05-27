@@ -103,15 +103,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <Button
+    <TextView
         android:id="@+id/signup"
-        android:layout_width="144dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="93dp"
-        android:layout_marginEnd="152dp"
-        android:layout_marginBottom="64dp"
-        android:text="Sign Up"
+        android:layout_width="117dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="104dp"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+        app:layout_constraintVertical_bias="0.836" />
+    <!--    <Button-->
+<!--        android:id="@+id/signup"-->
+<!--        android:layout_width="144dp"-->
+<!--        android:layout_height="49dp"-->
+<!--        android:layout_marginTop="93dp"-->
+<!--        android:layout_marginEnd="152dp"-->
+<!--        android:layout_marginBottom="64dp"-->
+<!--        android:text="Sign Up"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>
