@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.hasthiya.homestar.EditProfileActivity;
+import com.hasthiya.homestar.ui.EditProfileActivity;
 import com.hasthiya.homestar.R;
 import com.hasthiya.homestar.api.ApiClient;
 import com.hasthiya.homestar.api.ApiServices;

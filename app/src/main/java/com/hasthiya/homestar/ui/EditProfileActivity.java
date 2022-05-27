@@ -1,4 +1,4 @@
-package com.hasthiya.homestar;
+package com.hasthiya.homestar.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.hasthiya.homestar.R;
 import com.hasthiya.homestar.ui.UserProfileActivity;
 
 public class EditProfileActivity extends AppCompatActivity {
