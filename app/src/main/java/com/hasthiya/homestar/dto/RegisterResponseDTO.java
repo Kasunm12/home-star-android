@@ -15,7 +15,7 @@ public class RegisterResponseDTO {
 
     @SerializedName("token")
     @Expose
-    private RegisterResponseDTO token;
+    private RegisterResponseSubDTO token;
 
     @SerializedName("message")
     @Expose
